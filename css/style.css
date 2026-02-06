@@ -186,24 +186,12 @@ img {
 }
 
 .nav__logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  color: #fff;
-  transition: color var(--transition);
-}
-
-.nav__logo-icon {
-  width: 48px;
-  height: auto;
-  flex-shrink: 0;
-}
-
-.nav__logo-text {
   font-family: 'Cormorant Garamond', Georgia, serif;
   font-size: 1.6rem;
   font-weight: 700;
+  color: #fff;
   letter-spacing: 1px;
+  transition: color var(--transition);
 }
 
 .nav--scrolled .nav__logo {
@@ -1120,14 +1108,6 @@ img {
 
   .nav__toggle.active span:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
-  }
-
-  .nav__logo-icon {
-    width: 40px;
-  }
-
-  .nav__logo-text {
-    font-size: 1.3rem;
   }
 
   .hero__logo-icon {
