@@ -317,7 +317,7 @@ img {
 }
 
 .hero__logo-icon {
-  width: 180px;
+  width: 280px;
   height: auto;
   color: var(--gold-lighter);
   margin: 0 auto;
@@ -622,6 +622,18 @@ img {
   align-items: center;
   justify-content: center;
   padding: 10px;
+  overflow: hidden;
+}
+
+.team-card__avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.team-card__avatar:has(img) {
+  padding: 0;
 }
 
 .team-card__avatar svg {
@@ -1111,7 +1123,7 @@ img {
   }
 
   .hero__logo-icon {
-    width: 140px;
+    width: 200px;
   }
 
   .about__grid {
